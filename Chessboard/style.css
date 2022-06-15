@@ -1,0 +1,37 @@
+table{
+    width: 952px;
+    height: 1000px;
+    margin: 100px auto;
+}
+
+td:nth-child(odd) {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 6px solid #f05712;
+    background-color: #2cd64d;
+}
+
+td:nth-child(even) {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 6px solid #2cd64d;
+    background-color: #f05712;
+}
+
+td:nth-child(odd) div {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: #f05712;
+}
+
+td:nth-child(even) div {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    background-color: #2cd64d;
+}

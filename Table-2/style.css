@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+table {
+    width: 1220px;
+    height: 450px;
+    margin: 100px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table, th, td {
+    border: 4px solid white;
+}
+
+th, td {
+    font-family: Lato;
+    font-size: 35px;
+    color: white;
+}
+
+th {
+    background-color: #86006f;
+    padding: 4px 20px;
+}
+
+th.Name {
+    width: 32%;
+}
+
+th.Tel {
+    letter-spacing: 4px;
+}
+
+th.Hobby {
+    width: 26.5%;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 2px 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #f37ecf;
+}
+
+tr:nth-child(odd) {
+    background-color: #af5593;
+}
