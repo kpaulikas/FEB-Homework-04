@@ -4,20 +4,23 @@ table{
     margin: 100px auto;
 }
 
-td:nth-child(odd) {
+tr {
+    display: inline-flex;
+}
+
+td {
     display: inline-flex;
     width: 100px;
     height: 100px;
     margin: 10px;
+}
+
+td:nth-child(odd) {
     border: 6px solid #f05712;
     background-color: #2cd64d;
 }
 
 td:nth-child(even) {
-    display: inline-flex;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
     border: 6px solid #2cd64d;
     background-color: #f05712;
 }
